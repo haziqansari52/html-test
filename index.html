@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <h1> Page 1</h1>
+   <a href="page2.html">Page 2</a> 
+   <a href="page3.html">Page 3</a> 
+   <a href="page4.html">Page 4</a> 
+   <form>
+        <center><h2>Novell Services Login</h2></center>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="city">City of <br>Employment:</label>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="server">Web server:</label>
+        <select id="server" name="server">
+            <option value="" disabled selected>-- Choose a server --</option>
+        </select><br><br><br>
+
+        <label>Please specify<br>your role:</label>
+        <div class="role">
+            <input type="radio" id="admin" name="role" value="Admin">
+            <label for="admin">Admin</label><br>
+            <input type="radio" id="engineer" name="role" value="Engineer">
+            <label for="engineer">Engineer</label><br>
+            <input type="radio" id="manager" name="role" value="Manager">
+            <label for="manager">Manager</label><br>
+            <input type="radio" id="guest" name="role" value="Guest">
+            <label for="guest">Guest</label>
+        </div><br><br><br>
+
+        <label>Single Sign-on<br>to the following:</label>
+        <div class="single-sign-on">
+            <input type="checkbox" id="mail" name="single-sign-on" value="Mail">
+            <label for="mail">Mail</label><br>
+            <input type="checkbox" id="payroll" name="single-sign-on" value="Payroll">
+            <label for="payroll">Payroll</label><br>
+            <input type="checkbox" id="self-service" name="single-sign-on" value="Self-service">
+            <label for="self-service">Self-service</label>
+        </div>
+
+       <center><input type="submit" value="Login">
+        <input type="reset" value="Reset"></center>
+    </form>
+</body>
+</html>
